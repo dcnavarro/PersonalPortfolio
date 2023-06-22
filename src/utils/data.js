@@ -3,19 +3,19 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
+    name: "Websites",
     projects: 7,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
+    name: "Mobile Apps",
     projects: 5,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
+    name: "Design & Brand Identity",
     projects: 7,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
@@ -29,25 +29,25 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Freelancer",
+    tenure: "Jul 2023 - Present",
+    role: "Full Stack Web Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "As a Freelancer, I have worked on various projects that helped my clients achieve their goals. This includes creating visually appealing and brand-aligned websites, developing solutions for patient scheduling, setting up e-commerce platforms, and providing soludions for personalized exercise routines management.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "No Country - Freelance",
+    tenure: "May 2023 - Present",
+    role: "Full Stack Developer - Frontend Oriented",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "In a simulated work environment, I collaborate with other developers, UX/UI designers, a project manager, and a product owner with different experience levels and tech stacks. We work with several tech stacks to create a common interest project.",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "soyHenry",
+    tenure: "Nov 2022 - May 2023",
+    role: "Full Stack Web Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "soyHenry is an intensive programming bootcamp where students can start programming without any prior knowledge and acquire both Frontend and Backend skills that enable them to professionally enter the IT world. Students study and apply knowledge of JavaScript, relational databases like PostgreSQL, NodeJS in the Backend, and frameworks like React Redux in the Frontend.",
   },
 ];
 

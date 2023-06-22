@@ -33,16 +33,16 @@ const Header = () => {
           ref={menuRef}
         >
           <li>
-            <a href="#experties">Services</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
             <a href="#work">Experience</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#experties">Services</a>
           </li>
           <li>
-            <a href="#people">Testimonials</a>
+            <a href="#people">Clients</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+ 54 9 11 5 121 2514</p>
