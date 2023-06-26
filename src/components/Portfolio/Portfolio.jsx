@@ -1,13 +1,29 @@
 import React from "react";
 import css from "./Portfolio.module.scss";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../utils/motion";
+import {
+  fadeIn,
+  staggerChildren,
+  textVariant,
+  textVariant2,
+} from "../../utils/motion";
 
 const Portfolio = () => {
   return (
-    <section className={`paddings ${css.wrapper}`}>
+    <motion.section
+      variants={staggerChildren}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className={`paddings ${css.wrapper}`}
+    >
+      <a className="anchor" id="portfolio"></a>
+
       <div className={`innerWidth flexCenter ${css.container}`}>
-        <div className={`flexCenter ${css.heading}`}>
+        <motion.div
+          variants={textVariant(0.4)}
+          className={`flexCenter ${css.heading}`}
+        >
           <div>
             <span className="primaryText">Latest Works</span>
             <p style={{ marginTop: "10px" }}>
@@ -15,7 +31,7 @@ const Portfolio = () => {
             </p>
           </div>
           <span className="secondaryText">Explore more works</span>
-        </div>
+        </motion.div>
         {/* Images */}
         <div className={`flexCenter ${css.showCase}`}>
           <motion.img
@@ -35,7 +51,7 @@ const Portfolio = () => {
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

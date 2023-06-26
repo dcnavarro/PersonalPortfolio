@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import css from "./Header.module.scss";
 import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
 import { motion } from "framer-motion";
